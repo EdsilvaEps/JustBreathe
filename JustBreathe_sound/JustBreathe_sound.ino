@@ -89,7 +89,8 @@ void loop() {
 
   // ---- Motion logic ----
   if (motion == HIGH && !isPlaying) {
-    Serial.println("Motion detected → Playing sound");
+    Serial.print("Motion detected → Playing soundtrack ");
+    Serial.println(currentTrack);
     player.play(currentTrack);  // play currently selected track
 
     playStartTime = now; // store start time
