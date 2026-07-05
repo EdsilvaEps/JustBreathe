@@ -2,8 +2,8 @@
 #include <DFRobotDFPlayerMini.h>
 #include "RTClib.h"
 
-#define DF_RX 12   // D6 - ESP RX (to DF TX)  
-#define DF_TX 13   // D7 - ESP TX (to DF RX) 
+#define DF_RX 12   // D6 - DF TX   
+#define DF_TX 13   // D7 -  DF RX
 #define RELAY_PIN 2 // pin D4/GPIO4
 #define BUTTON_PIN  0 // pin D3/GPIO0
 
@@ -12,7 +12,7 @@
 
 SoftwareSerial mySerial(DF_TX, DF_RX);
 DFRobotDFPlayerMini player;
-RTC_DS1307 rtc;
+RTC_DS1307 rtc; // D1 (GPIO5/SCL) and D2 (GPIO4/SDA)
 
 //-- sound state variables --
 bool isPlaying = false;

@@ -11,7 +11,7 @@
 
 SoftwareSerial mySerial(DF_TX, DF_RX);
 DFRobotDFPlayerMini player;
-RTC_DS1307 rtc;
+RTC_DS1307 rtc; // D1 -> SCL, D2 -> SDA
 
 bool isPlaying = false;
 DateTime playStartTime;
