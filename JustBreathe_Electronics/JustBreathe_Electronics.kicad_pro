@@ -648,7 +648,7 @@
         "uuid": "27769c96-dff7-457f-8eae-994c971291b3"
       }
     ],
-    "used_designators": "U1-2,Q1,J1,R1-3,D1,RV1",
+    "used_designators": "U1-2,Q1,R10k1,J1-3,#FLG1-2,R1-3,#PWR1-15,D1,RV1,R1k1,RTC_Connector1,PIR_Connector1,Pump1,Speaker1",
     "variants": []
   },
   "sheets": [

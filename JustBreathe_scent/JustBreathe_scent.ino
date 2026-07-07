@@ -2,8 +2,8 @@
 #include <DFRobotDFPlayerMini.h>
 #include "RTClib.h"
 
-#define DF_RX 12   // D6 - DF TX   
-#define DF_TX 13   // D7 -  DF RX
+#define DF_RX 12   // D6 - DF RX   
+#define DF_TX 13   // D7 -  DF TX
 #define RELAY_PIN 2 // pin D4/GPIO4
 #define BUTTON_PIN  0 // pin D3/GPIO0
 
