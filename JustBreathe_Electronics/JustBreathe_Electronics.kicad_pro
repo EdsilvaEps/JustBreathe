@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -648,7 +661,7 @@
         "uuid": "27769c96-dff7-457f-8eae-994c971291b3"
       }
     ],
-    "used_designators": "U1-2,Q1,R10k1,J1-3,#FLG1-2,R1-3,#PWR1-15,D1,RV1,R1k1,RTC_Connector1,PIR_Connector1,Pump1,Speaker1",
+    "used_designators": "U1-2,R1k1,Speaker1,#FLG1-2,J1-3,PIR_Connector1,R1-3,H1-4,Q1,RV1,R10k1,D1,#PWR1-15,RTC_Connector1,Pump1",
     "variants": []
   },
   "sheets": [
